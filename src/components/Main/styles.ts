@@ -68,7 +68,6 @@ export const Title = styled.h1`
 `;
 
 export const DivImg  = styled.div`
-
     .blue-blur {
     display: flex;
     justify-content: center;
