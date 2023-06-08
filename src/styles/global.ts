@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import styled from "styled-components";
 
 export default createGlobalStyle`
     * {
@@ -13,7 +12,6 @@ export default createGlobalStyle`
         font-family: sans-serif;
     }
 
-    
 ul,
 ol {
   list-style: none;
