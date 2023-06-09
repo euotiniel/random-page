@@ -42,6 +42,7 @@ const DescriptionCard = styled.p`
   line-height: 25px;
   text-align: left;
   color: #97979E;
+  text-align: center;
 `;
 
 export default function CardComponents({title, description, url}: CardProps) {

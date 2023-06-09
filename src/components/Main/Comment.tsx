@@ -16,6 +16,10 @@ const Card = styled.div`
   height: 200px;
   transition: all .9s;
 
+  @media (max-width: 660px) {
+    height: 150px;
+  }  
+
 
   img {
     height: 45px;

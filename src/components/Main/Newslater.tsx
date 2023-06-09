@@ -29,8 +29,12 @@ const Newslatercontainer = styled.div`
         color: ${props => props.theme.colors.black};
         border-radius: 10px;
         cursor: pointer;
-        transition: all 1s;
+        transition: all .3s;
         border: 1px solid ${props => props.theme.colors.secondary};
+
+        &:hover {
+          background: linear-gradient(20deg, #2CC887, #36c4b3);
+        }
     }
 `;
 

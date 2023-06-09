@@ -10,6 +10,16 @@ const CardContainer = styled.div`
   border-radius: 7px;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1052px) {
+    width: 100%;
+  }
+
+  @media (max-width: 498px) {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 20px;
+  }
 `;
 
 const Code = styled.code`
@@ -17,6 +27,13 @@ const Code = styled.code`
   color: ${props => props.theme.colors.white};
   font-size: 0.88rem;
   font-weight: 500;
+
+  
+  @media (max-width: 498px) {
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: 500;
+  }
 `;
 
 const CopyButton = styled.button`
@@ -47,7 +64,7 @@ const Card: React.FC<CardProps> = ({ code }) => {
     <CardContainer>
       <Code>{code}</Code>
       <CopyButton onClick={copyCodeToClipboard}>
-        {isCopied ? "Copied!" : "Copy Code"}
+        {isCopied ? "Copied!" : "Copy"}
       </CopyButton>
     </CardContainer>
   );

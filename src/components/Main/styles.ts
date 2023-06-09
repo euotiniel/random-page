@@ -10,6 +10,10 @@ export const Hero = styled.div`
     justify-content: space-between;
     line-height: 55px;
     height: 100vh;
+
+    @media (max-width: 970px) {
+        height: 110vh;
+    }
 `;
 
 export const DivTitle = styled.div`
@@ -17,6 +21,11 @@ export const DivTitle = styled.div`
         color: #97979E;
         font-size: 1.5rem;
         margin-bottom: 20px;
+
+        @media (max-width: 612px) {
+        margin-bottom: 15px;
+        line-height: 45px;
+    }
     }
 
     div {
@@ -66,8 +75,18 @@ export const Title = styled.h1`
     font-weight: 600;
     width: 60%;
 
-    span {
+    @media (max-width: 970px) {
+        width: 70%;
+    }
 
+    @media (max-width: 660px) {
+        font-size: 3rem;
+    width: 100%;
+    }
+
+    @media (max-width: 612px) {
+        font-size: 3rem;
+        width: 100%;
     }
 `;
 
@@ -148,6 +167,11 @@ export const View = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media (max-width: 970px) {
+        height: 100%;
+        padding: 70px 0;
+    }
 `;
 
 
@@ -173,6 +197,10 @@ text-align: left;
 color: #97979E;
 margin-bottom: 30px;
 width: 75%;
+
+@media (max-width: 660px) {
+    width: 100%;
+}
 `;
 
  

@@ -25,7 +25,7 @@ export default function index() {
       <p>A failed attempt to create a kind of documentation</p>
       <div>
         <button><a href="#">Gest Start</a></button>
-        <button className='dark-btn'><a href="#">View on git</a></button>
+        <button className='dark-btn'><a href="https://github.com/otonielemanuel/random-page-react-note">View on git</a></button>
       </div>
       </DivTitle>
 

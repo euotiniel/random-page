@@ -23,7 +23,7 @@ export default function ThirdSection() {
   return (
     <View>
       <SubTitle>What it was supposed to do</SubTitle>
-      <Paragraph>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore beatae <Ancora href="">consectetur ducimus</Ancora> quae dolores unde voluptatem illum dicta, et suscipit iure itaque! Fugit repudiandae quod omnis asperiores soluta nemo quis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore beatae <Ancora href="">consectetur ducimus.</Ancora></Paragraph>
+      <Paragraph>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore beatae <Ancora href="">consectetur ducimus</Ancora> quae dolores unde voluptatem illum dicta, et suscipit iure itaque!</Paragraph>
 
       <DoCard>
         <CardComponents
