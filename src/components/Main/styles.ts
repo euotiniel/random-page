@@ -9,7 +9,7 @@ export const Hero = styled.div`
     align-items: center;
     justify-content: space-between;
     line-height: 55px;
-    height: 95vh;
+    height: 100vh;
 `;
 
 export const DivTitle = styled.div`
@@ -65,6 +65,10 @@ export const Title = styled.h1`
     font-size: 3.125rem;
     font-weight: 600;
     width: 60%;
+
+    span {
+
+    }
 `;
 
 export const DivImg  = styled.div`
@@ -76,10 +80,10 @@ export const DivImg  = styled.div`
     border-radius:100%;
     transform: rotate(-20deg);
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     left: -3%;
-    top: 170%;
+    top: 210%;
     }
 
     .blue-blur1 {
@@ -96,6 +100,20 @@ export const DivImg  = styled.div`
     top: 40%;
     }
 
+    .blue-blur2 {
+    display: flex;
+    justify-content: center;
+    background-color: ${p => p.theme.colors.secondary};
+    filter: blur(40px);
+    border-radius:100%;
+    transform: rotate(-20deg);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 80%;
+    top: 520%;
+    }
+
     .green-blur {
     display: flex;
     justify-content: center;
@@ -109,10 +127,24 @@ export const DivImg  = styled.div`
     left: 65%;
     top: 59%;
     }
+
+    .green-blur2 {
+    display: flex;
+    justify-content: center;
+    background-color: ${p => p.theme.colors.primary};
+    filter: blur(40px);
+    border-radius: 100%;
+    transform: rotate(-20deg);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 75%;
+    top: 535%;
+    }
 `;
 
 export const View = styled.div`
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,7 +154,7 @@ export const View = styled.div`
 
 export const SubTitle = styled.h2`
     color: ${p => p.theme.colors.white};
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin: 40px 0;
 `;
 
@@ -131,8 +163,16 @@ export const DoCard = styled.div`
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     column-gap: 2rem;
     row-gap: 2rem;
-    height: 50vh;
 `;
 
+export const Paragraph = styled.p`
+font-size: 1.125rem;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+color: #97979E;
+margin-bottom: 30px;
+width: 75%;
+`;
 
  

@@ -1,16 +1,8 @@
-import { SubTitle, View } from "./styles";
+import { SubTitle, View, Paragraph } from "./styles";
 import Code from "./Code";
 
 import styled from 'styled-components';
 
-const Paragraph = styled.p`
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 25px;
-  text-align: left;
-  color: #97979E;
-  width: 70%;
-`;
 
 const Ancora = styled.a `
     color: ${props => props.theme.colors.white};
