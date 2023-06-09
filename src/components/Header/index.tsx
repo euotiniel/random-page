@@ -6,7 +6,7 @@ export default function index() {
     <Container>
       <a href="#!">
         <Logo>
-          <img src="/src/assets/lamp.png" alt="Logotipo" height={20} /> Notes
+          <img src="/src/assets/lamp.png" alt="" height={20} /> Notes
           react
         </Logo>
       </a>
