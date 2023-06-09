@@ -45,4 +45,9 @@ To install and run this app on your local machine, please follow these steps:
 
 > A demo of this app can be found at https://notes-react-gamma.vercel.app/
 
-### Home
+![Captura de Ecrã (246)](https://github.com/otonielemanuel/random-page-react-note/assets/93485038/3e745698-94ee-4498-966e-56fe592ad046)
+
+![Captura da Web_9-6-2023_21346_localhost](https://github.com/otonielemanuel/random-page-react-note/assets/93485038/547f4b7c-3b91-467a-980b-620d20a28ee7)
+
+
+
