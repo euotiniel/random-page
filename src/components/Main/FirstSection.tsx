@@ -1,8 +1,8 @@
 import { SubTitle, DoCard, View } from "./styles";
 import CardComponents from "./CardComponents";
 import Elishir from "../../assets/elishir.png";
-import Sumo from '../../assets/sumo.png'
-import Book from '../../assets/book.png'
+import Sumo from "../../assets/sumo.png";
+import Book from "../../assets/book.png";
 
 export default function FirstSection() {
   return (
@@ -17,14 +17,14 @@ export default function FirstSection() {
           url={Elishir}
         />
 
-<CardComponents
+        <CardComponents
           title="Create documentation"
           description="
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat dolore maiores possimus. Integer volupt ut."
           url={Book}
         />
 
-<CardComponents
+        <CardComponents
           title="Practice front-end"
           description="
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat dolore maiores possimus. Integer volupt ut."

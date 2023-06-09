@@ -5,7 +5,7 @@ const Newslatercontainer = styled.div`
     display: flex;
     align-items: center;
     column-gap: 0.88rem;
-   }
+   } 
 
     input {
         background-color: transparent;

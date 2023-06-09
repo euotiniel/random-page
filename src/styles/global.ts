@@ -2,25 +2,26 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
-   ::-webkit-scrollbar {
-        width: 7px;
-        background-color:  #44444442;
-    }
+::-webkit-scrollbar {
+  width: 7px;
+  background-color:  #44444442;
+}
   
-    ::-webkit-scrollbar-thumb {
-        background-color: #050607;
-        border-radius: 5px; 
-    }
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+::-webkit-scrollbar-thumb {
+  background-color: #050607;
+  border-radius: 5px; 
+}
 
-    body {
-        background: #1E1E20;
-        font-family: sans-serif;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1E1E20;
+  font-family: sans-serif;
+}
 
 ul,
 ol {

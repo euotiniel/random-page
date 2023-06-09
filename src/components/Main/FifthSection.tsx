@@ -19,7 +19,7 @@ export default function FifthSection() {
 
       <Paragraph>
         Minima hic itaque. Architecto cumque rerum temporibus quo eius
-        aspernatur ad nesciunt sed. 
+        aspernatur ad nesciunt sed.
       </Paragraph>
 
       <Newslater />
