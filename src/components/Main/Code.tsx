@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 
 const CardContainer = styled.div`
-  width: 60%;
+  width: 65%;
   padding: 10px;
   margin-top: 50px;
   border: 1px solid ${(props) => props.theme.colors.primary};
@@ -56,12 +56,16 @@ const Card: React.FC<CardProps> = ({ code }) => {
   const copyCodeToClipboard = () => {
     navigator.clipboard.writeText(code);
     setIsCopied(true);
+
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 3000); // 3000ms = 3 segundos de atraso antes de voltar a habilitar o botão
   };
 
   return (
     <CardContainer>
       <Code>&gt; {code}</Code>
-      <CopyButton onClick={copyCodeToClipboard}>
+      <CopyButton onClick={copyCodeToClipboard} disabled={isCopied}>
         {isCopied ? "Copied!" : "Copy"}
       </CopyButton>
     </CardContainer>
