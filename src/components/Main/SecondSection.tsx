@@ -14,7 +14,7 @@ const Ancora = styled.a`
 `;
 
 export default function SecondSection() {
-  const code = `> git clone https://github.com/otonielemanuel/random-repo.git`;
+  const code = `git clone https://github.com/otonielemanuel/random-repo.git`;
 
   return (
     <View>

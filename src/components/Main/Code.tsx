@@ -60,7 +60,7 @@ const Card: React.FC<CardProps> = ({ code }) => {
 
   return (
     <CardContainer>
-      <Code>{code}</Code>
+      <Code>&gt; {code}</Code>
       <CopyButton onClick={copyCodeToClipboard}>
         {isCopied ? "Copied!" : "Copy"}
       </CopyButton>
