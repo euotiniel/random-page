@@ -20,6 +20,10 @@ const CardContainer = styled.div`
     align-items: flex-start;
     padding: 20px;
   }
+
+  @media (max-width: 375px) {
+    width: 100%;
+  }
 `;
 
 const Code = styled.code`
@@ -32,6 +36,10 @@ const Code = styled.code`
     line-height: 20px;
     font-size: 12px;
     font-weight: 500;
+  }
+
+  @media (max-width: 375px) {
+
   }
 `;
 

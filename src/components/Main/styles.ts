@@ -26,6 +26,11 @@ export const DivTitle = styled.div`
       margin-bottom: 15px;
       line-height: 45px;
     }
+
+    @media (max-width: 375px) {
+      line-height: 30px;
+      font-size: 1.3rem;
+  }
   }
 
   div {
@@ -81,6 +86,10 @@ export const Title = styled.h1`
     font-size: 3rem;
     width: 100%;
   }
+
+  @media (max-width: 375px) {
+    font-size: 2.5rem;
+  }
 `;
 
 export const DivImg = styled.div`
@@ -110,6 +119,11 @@ export const DivImg = styled.div`
     height: 100px;
     left: 70%;
     top: 40%;
+
+    @media (max-width: 375px) {
+      width: 50px;
+    height: 50px;
+  }
   }
 
   .blue-blur2 {
@@ -124,6 +138,10 @@ export const DivImg = styled.div`
     height: 80px;
     left: 80%;
     top: 520%;
+
+    @media (max-width: 375px) {
+      top: 599%;
+    }
   }
 
   .green-blur {
@@ -138,6 +156,11 @@ export const DivImg = styled.div`
     height: 100px;
     left: 65%;
     top: 59%;
+
+    @media (max-width: 375px) {
+      width: 50px;
+    height: 50px;
+  }
   }
 
   .green-blur2 {
@@ -152,6 +175,10 @@ export const DivImg = styled.div`
     height: 60px;
     left: 75%;
     top: 535%;
+
+    @media (max-width: 375px) {
+    top: 300%;
+  }
   }
 `;
 
@@ -171,6 +198,10 @@ export const SubTitle = styled.h2`
   color: ${(p) => p.theme.colors.white};
   font-size: 2.3rem;
   margin: 40px 0;
+
+  @media (max-width: 375px) {
+    font-size: 2rem;
+  }
 `;
 
 export const DoCard = styled.div`
@@ -191,5 +222,10 @@ export const Paragraph = styled.p`
 
   @media (max-width: 660px) {
     width: 100%;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 1rem;
+    margin-bottom: 20px;
   }
 `;
